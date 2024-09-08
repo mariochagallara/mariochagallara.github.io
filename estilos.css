@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: rgb(164, 168, 168);
+}
+header {
+    background-color: brown;
+    color: white;
+    padding: 3rem 2rem;
+}
+header h1 {
+    margin: 15px;
+    text-align: center;
+    font-size: 4rem;
+}
+.contenedor {
+    width: 400px;
+    margin: 0 auto;
+}
+section article {
+    transition: box-shadow3.0s ease;
+    background-color: #fff;
+    padding: 2rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem  0;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,3);
+    cursor: pointer;
+}
+section article h2, section article p {
+    margin: 1rem;
+
+}
+footer {
+    background-color: black;
+    padding: 3rem;
+    color: #fff;
+}   
